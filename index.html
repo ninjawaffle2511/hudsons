@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -26,16 +26,16 @@
             <a class="nav-link" href="https://www.mueller.qld.edu.au" target="_blank"><- Back to Mueller</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./menu.html" target="_blank">Menu</a>
+            <a class="nav-link" href="./menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Order</a>
+            <a class="nav-link" href="./order.html">Order</a>
           </li>
 			<li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="./contact.html">About/Contact</a>
           </li>
 
 		<!-- NAV DROPDOWN (MAYBE USE?)
@@ -58,6 +58,7 @@
       <div class="starter-template">
         <h1>Welcome to Hudsons</h1>
       </div>
+
 		<!-- CAROUSEL -->
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -114,60 +115,18 @@
 	<div class="col-sm-4">
     <div class="card text-center">
       <div class="card-body">
-        <h5 class="card-title">Sample Text</h5>
-        <p class="card-text"><-- Add a description here --></p>
-        <a href="#" class="buttons">Cool Button</a>
+        <h5 class="card-title">Ordering Form</h5>
+        <p class="card-text"><em>Coming Soon</em><br><br></p>
+        <a href="#" class="buttons">View Form</a>
       </div>
     </div>
   </div>
 </div>
 <br>
 
-	<!-- ENQUIRY FORM -->
-<br>
-<h2 id="form">Enquiry Form</h2>
-<form class="needs-validation" novalidate>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Select Enquiry Type</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Enquiry</option>
-      <option>Feedback</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-	<div class="g-recaptcha" data-sitekey="6LcuW28UAAAAAFAL5yWntR1hdhBxq2wh2OCUBumV"></div>
+	<!-- UPCOMING EVENTS -->
 	<br>
-	<button type="submit" class="buttons">Submit</button>
-</form>
-
-<script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function() {
-  'use strict';
-  window.addEventListener('load', function() {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('needs-validation');
-    // Loop over them and prevent submission
-    var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  }, false);
-})();
-</script>
-
+	<h2 style="text-align: center;">Upcoming Events</h2>
 
     </main>
 

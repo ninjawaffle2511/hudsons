@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <title>Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="./css/starter-template.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/starter-template.css" type="text/css" rel="stylesheet">
+    <link href="css/custom.css" type="text/css" rel="stylesheet">
   </head>
 
   <body>
@@ -15,11 +16,11 @@
         <a class="navbar-brand" href="#">
   		<img src="images/hudsons-red.png" width="40" height="40" class="d-inline-block align-top" alt="">
   	  </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <div class="collapse navbar-collapse" id="navbarsDefault">
           <ul class="navbar-nav mr-auto">
   					<li class="nav-item">
               <a class="nav-link" href="https://www.mueller.qld.edu.au" target="_blank"><- Back to Mueller</a>
@@ -65,27 +66,29 @@
     <h2 id="form">Enquiry Form</h2>
     <form class="needs-validation" novalidate>
       <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="FormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Select Enquiry Type</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <label for="FormControlSelect1">Select Enquiry Type</label>
+        <select class="form-control" id="FormControlSelect1">
           <option>Enquiry</option>
           <option>Feedback</option>
         </select>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="FormControlTextarea1">Message</label>
+        <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
       </div>
     	<div class="g-recaptcha" data-sitekey="6LcuW28UAAAAAFAL5yWntR1hdhBxq2wh2OCUBumV"></div>
     	<br>
-    	<button type="submit" class="buttons">Submit</button>
+    	<a href="#" class="buttons">Submit</a>
     </form>
+    <br>
+    <br>
 
     <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    //JavaScript for disabling form submissions if there are invalid fields
     (function() {
       'use strict';
       window.addEventListener('load', function() {
